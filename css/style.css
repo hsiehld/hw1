@@ -188,9 +188,10 @@ body {
   top: 0;
   left: 20px;
   color: var(--main-color-light);
+  font-weight: var(--font-weight-bold);
   background-color: var(--main-color);
   padding: 10px;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
 }
 
 .fav {
