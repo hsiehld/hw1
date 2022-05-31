@@ -58,7 +58,6 @@ body {
 
 .menu {
   display: flex;
-  align-items: center;
 }
 
 .menu a {
@@ -79,22 +78,25 @@ body {
   width: 24px;
 }
 
-.main {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 60px;
+.banner {
   margin-bottom: 60px;
 }
 
-.main-left {
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.categories {
   width: 300px;
 }
 
-.main-right {
+.products-wrap {
   width: 620px;
 }
 
-.left-menu-title {
+.categories-title {
   padding: 20px 0;
   text-align: center;
   font-size: 1.5rem;
@@ -103,18 +105,18 @@ body {
   background-color: var(--main-color);
 }
 
-.left-menu {
+.categories-menu {
   border: 1px solid var(--main-color-light);
 }
 
-.left-menu li {
+.categories-menu li {
   border-bottom: 1px solid var(--main-color-light);
 }
-.left-menu li:last-child {
+.categories-menu li:last-child {
   border-bottom: 0;
 }
 
-.left-menu a {
+.categories-menu a {
   display: block;
   padding: 20px 0;
   text-align: center;
@@ -122,11 +124,11 @@ body {
   font-weight: var(--font-weight-bold);
   color: var(--main-color);
 }
-.left-menu a.active {
+.categories-menu a.active {
   background-color: var(--main-color-light);
 }
 
-.left-menu a:hover {
+.categories-menu a:hover {
   background-color: var(--main-color-light);
 }
 
@@ -213,7 +215,7 @@ body {
 
 .pagination a {
   display: block;
-  width: 60px;
+  min-width: 60px;
   height: 60px;
   color: var(--main-color);
   font-weight: var(--font-weight-light);
